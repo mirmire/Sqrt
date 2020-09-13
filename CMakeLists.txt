@@ -10,7 +10,7 @@ project("Test Project"
 # specify the C++ standard
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-set(CMAKE_CXX_COMPILER "gcc" CACHE STRING "CXX compiler name")
+set(CMAKE_CXX_COMPILER "g++" CACHE STRING "CXX compiler name")
 
 add_executable(Tutorial Tutorial.cxx)
 
